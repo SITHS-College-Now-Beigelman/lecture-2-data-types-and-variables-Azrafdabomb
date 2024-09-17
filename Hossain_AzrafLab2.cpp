@@ -42,8 +42,9 @@ int main() {
     cout << "How many calories of " << name << " would you like to consume today?" << endl;
     cin >> total;
 
-    int totaloz = (total/perOz);
+    float totaloz = (total/perOz);
 
+    
     cout << "You should eat " << totaloz << " ounces of " << name << endl;
 
 
